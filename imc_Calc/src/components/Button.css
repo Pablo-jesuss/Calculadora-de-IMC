@@ -1,0 +1,33 @@
+#calc-btn {
+  margin-right: 10px;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background-color: #ff0000;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.9;
+  flex: 1;
+}
+
+#calc-btn:hover {
+  opacity: 1;
+}
+
+#clear-btn {
+  margin-left: 10px;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  background-color: #0000ff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.9;
+  flex: 1;
+}
+
+#clear-btn:hover {
+  opacity: 1;
+}
