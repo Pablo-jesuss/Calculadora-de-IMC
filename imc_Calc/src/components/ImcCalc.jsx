@@ -26,6 +26,10 @@ const ImcCalc = () => {
             />
           </div>
         </div>
+        <div className="action-control">
+          <button>Calcular</button>
+          <button>Limpar</button>
+        </div>
       </form>
     </div>
   );
