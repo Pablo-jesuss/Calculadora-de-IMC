@@ -17,18 +17,18 @@ const ImcCalc = () => {
           </div>
 
           <div className="form-control">
-            <label htmlFor="height">Peso:</label>
+            <label htmlFor="weight">Peso:</label>
             <input
               type="text"
-              name="height"
-              id="height"
+              name="weight"
+              id="weight"
               placeholder="Exemplo 70,5"
             />
           </div>
         </div>
         <div className="action-control">
-          <button id="calc-btn" text="Calcular" />
-          <button id="clear-btn" text="Limpar" />
+          <button id="calc-btn">Calcular</button>
+          <button id="clear-btn">Limpar</button>
         </div>
       </form>
     </div>

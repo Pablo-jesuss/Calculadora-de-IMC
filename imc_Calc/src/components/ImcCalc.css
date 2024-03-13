@@ -1,0 +1,66 @@
+#calc-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+  color: #ccc;
+}
+
+.form-control input {
+  padding: 1rem 0.5rem;
+}
+
+.action-control {
+  display: flex;
+  gap: 1;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+
+#calc-btn {
+  margin-right: 10px;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background-color: #ff0000;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.9;
+  flex: 1;
+}
+
+#calc-btn:hover {
+  opacity: 1;
+}
+
+#clear-btn {
+  margin-left: 10px;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background-color: #0000ff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.9;
+  flex: 1;
+}
+
+#clear-btn:hover {
+  opacity: 1;
+}
