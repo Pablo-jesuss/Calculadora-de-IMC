@@ -21,3 +21,59 @@
   margin: 1.5rem 0;
   font-size: 1rem;
 }
+
+.table-header {
+  font-weight: bold;
+  color: #ccc;
+}
+
+.table-header,
+.table-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #444;
+}
+
+.table-header h4,
+.table-data p {
+  flex: 1;
+}
+
+.table-header h4:nth-child(3),
+.table-data p:nth-child(3) {
+  max-width: 80px;
+}
+
+#back-btn {
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background-color: #ff0000;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.9;
+  align-self: center;
+}
+
+#back-btn:hover {
+  opacity: 1;
+}
+
+.good {
+  color: #12d432;
+}
+
+.low {
+  color: #d4c711;
+}
+
+.medium {
+  color: #d35e10;
+}
+
+.high {
+  color: #d61610;
+}
