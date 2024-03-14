@@ -57,7 +57,11 @@ const ImcCalc = ({ calcImc }) => {
           </div>
 
           <div className="action-control">
-            <Button id="calc-btn" test="Calcular" action={calcImc} />
+            <Button
+              id="calc-btn"
+              test="Calcular"
+              action={(e) => calcImc(e, height, weight)}
+            />
             <Button id="clear-btn" test="Limpar" action={clearForm} />
           </div>
         </div>
