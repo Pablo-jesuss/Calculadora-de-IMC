@@ -77,3 +77,9 @@
 .high {
   color: #d61610;
 }
+
+@media (max-width: 768px) {
+  .table-header h4 {
+    margin-left: 5px;
+  }
+}
